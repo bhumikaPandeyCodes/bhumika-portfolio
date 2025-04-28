@@ -1,4 +1,3 @@
-import Image from "next/image"
 import ProjectBox from "../ui/ProjectBox"
 import { Title } from "../ui/title"
 export default function Projects () {
