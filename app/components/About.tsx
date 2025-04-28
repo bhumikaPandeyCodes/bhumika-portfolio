@@ -1,4 +1,3 @@
-import { Tag } from "../ui/tag"
 import { Title } from "../ui/title"
 
 export function About(){
