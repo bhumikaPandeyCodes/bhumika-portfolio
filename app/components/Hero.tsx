@@ -32,13 +32,13 @@ export default function Hero(){
                     <p className="mt-6 text-sm md:text-base text-gray-300  w-[360px] text-center">I&apos;m a <span className="font-semibold">full-stack web developer</span> building <span className="font-semibold">websites</span>, <span className="font-semibold">web designs</span> and <span className="font-semibold">mordern UIs</span></p>
                 </div>
                 <div className="flex gap-6 mt-3">
-                    <Link href="https://x.com/bhumiCodes" className="p-2 rounded-full group transition-all hover:bg-gray-600 hover:duration-300 hover:-translate-y-1 ">
+                    <Link href="https://x.com/bhumiCodes" target="_blank" className="p-2 rounded-full group transition-all hover:bg-gray-600 hover:duration-300 hover:-translate-y-1 ">
                         <TwitterIcon />
                     </Link>
-                    <Link href="https://www.linkedin.com/in/bhumika-pandey-0a5901267/" className="p-2 rounded-full group transition-all hover:bg-gray-600 hover:duration-300 hover:-translate-y-1 ">
+                    <Link href="https://www.linkedin.com/in/bhumika-pandey-0a5901267/" target="_blank" className="p-2 rounded-full group transition-all hover:bg-gray-600 hover:duration-300 hover:-translate-y-1 ">
                         <LinkedInIcon />
                     </Link>
-                    <Link href="https://github.com/bhumikaPandeyCodes" className="p-2 rounded-full  group transition-all hover:bg-gray-600 hover:duration-300 hover:-translate-y-1 ">
+                    <Link href="https://github.com/bhumikaPandeyCodes" target="_blank" className="p-2 rounded-full  group transition-all hover:bg-gray-600 hover:duration-300 hover:-translate-y-1 ">
                         <GithubIcon />
                     </Link>
                 </div>

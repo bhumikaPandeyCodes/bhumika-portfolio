@@ -32,7 +32,7 @@ export default function ProjectBox ({name, description, img, techStack, githubLi
                 <div className="text-sm mt-4 mb-2 grid grid-cols-[auto_1fr] gap-2"><p className="">Tech Stack:</p><p className="flex flex-wrap">{techStack.map((skill,id)=> {return <Tag skill={skill} key={id} size="sm" theme="dark"/>})}</p></div>
               </div>
               <div className="flex gap-4 items-center justify-center">
-                <Link href={githubLink}>
+                <Link href={githubLink} target="_blank">
                     <Image 
                     alt="project1-github"
                     src="/github.png"
@@ -41,7 +41,7 @@ export default function ProjectBox ({name, description, img, techStack, githubLi
                     className="cursor-pointer"
                     />
                 </Link>
-                <Link href={websiteLink}>
+                <Link href={websiteLink} target="_blank">
                     <Image 
                     alt="project1-link"
                     src="/link.png"
