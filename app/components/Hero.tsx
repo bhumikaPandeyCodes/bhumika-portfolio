@@ -16,7 +16,7 @@ export default function Hero(){
                 transition={{duration:0.4, ease: "easeInOut"}}
                 className="md:w-[200px] md:h-[200px] w-[160px] h-[160px] relative">
                     <Image
-                    src="/avatar.png"
+                    src="/pfp.jpg"
                     alt="portfolio-image"
                     height={200}
                     width={200}
@@ -29,7 +29,7 @@ export default function Hero(){
                         <Title title="Bhumika Pandey"/>
                         <span className="absolute inset-x-0 bottom-0 bg-gradient-to-r from-transparent via-gray-100 to-transparent h-[1px] w-3/4 mx-auto"></span>
                     </div>
-                    <p className="mt-6 text-sm text-gray-300  w-[360px] text-center">I&apos;m a <span className="font-semibold">full-stack web developer</span> building <span className="font-semibold">websites</span>, <span className="font-semibold">web designs</span> and <span className="font-semibold">mordern UIs</span></p>
+                    <p className="mt-6 text-sm md:text-base text-gray-300  w-[360px] text-center">I&apos;m a <span className="font-semibold">full-stack web developer</span> building <span className="font-semibold">websites</span>, <span className="font-semibold">web designs</span> and <span className="font-semibold">mordern UIs</span></p>
                 </div>
                 <div className="flex gap-6 mt-3">
                     <Link href="https://x.com/bhumiCodes" className="p-2 rounded-full group transition-all hover:bg-gray-600 hover:duration-300 hover:-translate-y-1 ">
@@ -48,7 +48,7 @@ export default function Hero(){
                   }}
                 >
                     <Image 
-                    src="/vector.png" 
+                    src="/Vector.png" 
                     alt="down"
                     height={20}
                     width={16}

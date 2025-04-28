@@ -5,7 +5,7 @@ export function About(){
         <section className="h-screen flex flex-col justify-center items-center gap-20 " id="About">
             <div className="flex flex-col justify-center items-center">
                 <Title title="About"/>
-                <p className="relative text-white flex flex-wrap max-w-[520px] my-4 text-sm md:text-md pt-2 pb-4">
+                <p className="relative text-white flex flex-wrap max-w-[520px] my-4 text-sm md:text-base pt-2 pb-4">
                     I am a full stack developer skilled in building scalable web applications from India. 
                     <br/><br/>
                     I have completed my Bachelor&apos;s of Computer Application from GGSIPU.
