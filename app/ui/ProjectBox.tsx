@@ -8,10 +8,11 @@ interface IProjectBox{
     img: string, 
     techStack: string[],
     githubLink: string,
-    websiteLink: string
+    websiteLink: string,
+    videoLink: string
 }
 
-export default function ProjectBox ({name, description, img, techStack, githubLink, websiteLink}:IProjectBox) {
+export default function ProjectBox ({name, description, img, techStack, githubLink, websiteLink, videoLink}:IProjectBox) {
     return (
         <div className="border-[1px] border-gray-100 bg-gray-600 flex flex-col items-center md:items-start md:flex-row gap-4 mx-auto p-5 font-krub my-5">
             <div className="w-[240px] h-[240px] md:w-[268px] md:h-[268px]">
@@ -47,6 +48,15 @@ export default function ProjectBox ({name, description, img, techStack, githubLi
                     src="/link.png"
                     width={20}
                     height={20}
+                    className="cursor-pointer"
+                    />
+                </Link>
+                <Link href={videoLink} target="_blank">
+                    <Image 
+                    alt="video-link"
+                    src="/video.png"
+                    width={24}
+                    height={24}
                     className="cursor-pointer"
                     />
                 </Link>
