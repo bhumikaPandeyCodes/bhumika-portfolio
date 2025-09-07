@@ -10,7 +10,7 @@ export function About(){
                     <br/><br/>
                     Currently, I am working full-time at CMTAI, where for the past 3 months, I have been developing a variety of full-stack projects for clients. I specialize in turning ideas into fully functional web applications and pixel-perfect user interfaces. I can help bring your vision to life with clean, efficient code.
                     <br/><br/>
-                    I have completed my Bachelor's of Computer Application from GGSIPU.
+                    I have completed my Bachelor&apos;s of Computer Application from GGSIPU.
                     <span className="absolute inset-x-0 bottom-0 bg-gradient-to-r from-transparent via-gray-100 to-transparent h-[1px] w-3/4 mx-auto"></span>
                 </p>
             </div>
