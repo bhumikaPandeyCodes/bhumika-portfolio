@@ -29,7 +29,7 @@ export default function Hero(){
                         <Title title="Bhumika Pandey"/>
                         <span className="absolute inset-x-0 bottom-0 bg-gradient-to-r from-transparent via-gray-100 to-transparent h-[1px] w-3/4 mx-auto"></span>
                     </div>
-                    <p className="mt-6 text-sm md:text-base text-gray-300  w-[360px] text-center">I&apos;m a <span className="font-semibold">full-stack web developer</span> building <span className="font-semibold">websites</span>, <span className="font-semibold">web designs</span> and <span className="font-semibold">mordern UIs</span></p>
+                    <p className="mt-6 text-sm md:text-base text-gray-300  w-[360px] text-center">I'm a <span className="font-semibold">full-stack web developer</span> building <span className="font-semibold">websites</span>, <span className="font-semibold">web designs</span> and <span className="font-semibold">mordern UIs</span></p>
                 </div>
                 <div className="flex gap-6 mt-3">
                     <Link href="https://x.com/bhumiCodes" target="_blank" className="p-2 rounded-full group transition-all hover:bg-gray-600 hover:duration-300 hover:-translate-y-1 ">
